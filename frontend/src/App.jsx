@@ -37,7 +37,7 @@ function App() {
 
 	return (
 		<>
-			<Title>Filee - Generate files of any size</Title>
+			<Title>Filer - Generate files of any size</Title>
 			<Search
 				value={size}
 				onChange={(e) => setSize(e.target.value)}
