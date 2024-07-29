@@ -22,7 +22,7 @@ function App() {
 			// Create a download link and simulate a click
 			const link = document.createElement("a");
 			link.href = URL.createObjectURL(blob);
-			link.download = "generated-file.bin";
+			link.download = `filer-${size}-bytes.bin`;
 			document.body.appendChild(link); // Append link to the body
 			link.click(); // Programmatically click the link
 			document.body.removeChild(link); // Remove link from the body
