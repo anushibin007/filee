@@ -1,10 +1,10 @@
 import { useState } from "react";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
-import {  Divider, Input, Typography } from "antd";
+import { Divider, Input, Typography } from "antd";
 import { ToastContainer, toast } from "react-toastify";
 import SizeChart from "./components/SizeChart";
-const { Title } = Typography;
+const { Title, Text } = Typography;
 const { Search } = Input;
 
 function App() {
@@ -39,6 +39,7 @@ function App() {
 	return (
 		<>
 			<Title>📁 Filer - Generate files of any size</Title>
+			<Divider />
 			<Search
 				value={size}
 				onChange={(e) => setSize(e.target.value)}
@@ -50,8 +51,19 @@ function App() {
 				type="number"
 				autoFocus
 			/>
-			<Divider/>
-			<SizeChart size={size}/>
+			<Divider />
+			<SizeChart size={size} />
+			<Divider />
+			<Text type="secondary">
+				An{" "}
+				<a href="https://www.linkedin.com/in/anushibinj/" target="_blank">
+					anushibinj
+				</a>{" "}
+				side project // Fork me on{" "}
+				<a href="https://github.com/anushibin007/filer" target="_blank">
+					GitHub
+				</a>
+			</Text>
 			<ToastContainer
 				position="bottom-right"
 				autoClose={5000}
