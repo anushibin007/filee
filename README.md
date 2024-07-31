@@ -17,5 +17,23 @@ The generated files can be used for application testing where upload of large fi
 ## 🛣 Future Roadmap
 
 -   [ ] Create a Spring Boot backend to generate files.
--   [ ] Allow creation of multiple file types (PDF, DOCX, PPTX, etc).
+-   [ ] Allow creation of multiple file types:
+    -   [ ] PDF
+    -   [ ] DOCX
+    -   [ ] PPTX
+    -   [ ] PCL
+    -   [ ] GIF
+    -   [ ] DOC
+    -   [ ] AFP
+    -   [ ] EPS
+    -   [ ] BMP
+    -   [ ] TIF
+    -   [ ] PDF
+    -   [ ] TXT
+    -   [ ] JPG
+    -   [ ] PPT
+    -   [ ] XLS
+    -   [ ] MSG
+    -   [ ] EML
+    -   [ ] PNG
 -   [ ] Progressive Web App (PWA).
